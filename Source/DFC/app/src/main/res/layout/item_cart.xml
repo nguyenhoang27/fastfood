@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gà xối mỡ"
+        android:id="@+id/tvCartName"
+        android:textStyle="bold"
+        android:textColor="@color/statusbar"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 phần"
+        android:padding="10dp"
+        android:id="@+id/tvCartQuantity"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30.000 đ"
+        android:id="@+id/tvCartPrice"
+        android:textColor="@color/actionbar"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú: Không lấy ớt"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvCartNote"
+        android:textSize="14sp"
+        android:layout_below="@+id/tvCartQuantity"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

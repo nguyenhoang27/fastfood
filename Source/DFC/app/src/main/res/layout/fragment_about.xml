@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center"
+        android:id="@+id/imgIconAbout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Ứng dụng được phát triển bởi Hồ Hoàng Hải.\n\nTrợ giúp Webservice: Nguyễn Phước Lộc.\n\nDữ liệu thuộc về KFC Việt Nam."
+        android:id="@+id/textView2" />
+
+</LinearLayout>

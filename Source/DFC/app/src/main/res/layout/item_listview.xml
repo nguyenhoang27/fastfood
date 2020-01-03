@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/llProduct01"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="161dp"
+            android:layout_height="161dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/noimage"
+            android:id="@+id/imgProduct01" />
+
+        <ImageView
+            android:layout_width="161dp"
+            android:layout_height="161dp"
+            android:id="@+id/imgBlack01"
+            android:layout_alignBottom="@+id/imgProduct01"
+            android:layout_alignEnd="@+id/imgProduct01"
+            android:layout_alignStart="@+id/imgProduct01"
+            android:src="@drawable/black"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gà rán mật ong"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            style="@style/StrokeForText"
+            android:textSize="15sp"
+            android:layout_above="@+id/tvPrice01"
+            android:id="@+id/tvProductName01"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="25000 vnđ"
+            android:textColor="@color/white"
+            style="@style/StrokeForText"
+            android:textSize="11sp"
+            android:layout_alignBottom="@+id/imgProduct01"
+            android:id="@+id/tvPrice01"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/llProduct02"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="161dp"
+            android:layout_height="161dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/noimage"
+            android:id="@+id/imgProduct02" />
+
+        <ImageView
+            android:layout_width="161dp"
+            android:layout_height="161dp"
+            android:id="@+id/imgBlack02"
+            android:layout_alignBottom="@+id/imgProduct02"
+            android:layout_alignEnd="@+id/imgProduct02"
+            android:layout_alignStart="@+id/imgProduct02"
+            android:src="@drawable/black"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gà rán mật ong"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            style="@style/StrokeForText"
+            android:textSize="15sp"
+            android:layout_above="@+id/tvPrice02"
+            android:id="@+id/tvProductName02" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="25000 vnđ"
+            android:textColor="@color/white"
+            style="@style/StrokeForText"
+            android:textSize="11sp"
+            android:layout_alignBottom="@+id/imgProduct02"
+            android:id="@+id/tvPrice02"/>
+    </RelativeLayout>
+</RelativeLayout>
